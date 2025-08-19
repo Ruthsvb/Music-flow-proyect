@@ -40,8 +40,7 @@ npm run build
 npm run format  
 
 ## 🌐 Live Demo  
-👉 [View Music Flow on Vercel](https://music-flow-blue.vercel.app/)  
-
+👉 [View Music Flow on Vercel](https://music-flow-proyect-2xa5.vercel.app/)
 ## 🛠️ Technologies Used  
 - ⚛️ **React** – Library for building user interfaces  
 - ⚡ **Vite** – Fast build tool for development  
