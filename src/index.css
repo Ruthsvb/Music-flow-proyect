@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tokens del tema (estilo Spotify) */
+:root {
+  --color-bg: #121212;
+  --color-panel: #181818;
+  --color-accent: #1DB954; /* Verde Spotify */
+  --shadow-soft: 0 8px 24px rgba(0,0,0,0.5);
+}
+
+:root { color-scheme: dark; }
+html, body, #root { min-height: 100%; }
+
+/* Fondo: Estilo Spotify */
+#root {
+  background-color: var(--color-bg);
+  color: white;
+}
+
+/* Estilos adicionales tipo Spotify */
+body { background: transparent; }
+
+/* Estilizar scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.05);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.2);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.3);
+}
+
+/* Estilos para los botones principales */
+.btn-primary {
+  background-color: var(--color-accent);
+  color: black;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  background-color: #1ed760; /* Verde más brillante al hover */
+}
